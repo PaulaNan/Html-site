@@ -1,0 +1,22 @@
+<html>
+<head></head>
+<body bgcolor="#9999CC">
+<font color="#CC0033"><h1 align="center">CV NAN PAULA</h1><hr></font color>
+<ol><h2>Experienta</h2>
+<ul>
+<li>Economist
+<DD><OL>Firma 1 </OL><OL>Firma 2.</OL></DD>
+<li>Director tehnic
+<DD><OL>Firma 1 </OL></DD>
+<li>Administrator
+<DD><OL>Firma 1 </OL></DD>
+<li>Gestionar<dd><li><OL>Firma 1 </ul></DD>
+</ul>
+<ol><h2>Studii</h2>
+<li>Liceul Traian <li>Facultatea Ovidius <li>Cursuri formare 
+</ol>
+</bgcolor>
+<script type="text/javascript">
+document.write(Date())</script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<html>
+<head>
+<br>
+<br>
+
+<p>Daca apesi butonul vei vedea mesajul de intampinare.</p>
+<br>
+
+<script type="text/javascript">
+function myfunction()
+{
+alert("Bine ai venit pe pagina mea")
+}
+</script>
+</head>
+<body>
+<form>
+<input type="button"
+onclick="myfunction()"
+value="Mesaj">
+</form>
+
+<head><h4> Este ora: </h4>
+<script type="text/javascript">
+function startTime()
+{
+var today=new Date()
+var h=today.getHours()
+var m=today.getMinutes()
+var s=today.getSeconds()
+
+m=checkTime(m)
+s=checkTime(s)
+document.getElementById('txt').innerHTML=h+":"+m+":"+s
+t=setTimeout('startTime()',500)
+}
+function checkTime(i)
+{
+if (i<10)
+{i="0" + i}
+return i
+}
+</script>
+</head>
+<body onload="startTime()">
+<div id="txt"></div>
+</body>
+</html>
+ 
+
+
+
+

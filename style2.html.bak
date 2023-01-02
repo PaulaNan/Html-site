@@ -1,0 +1,23 @@
+<html>
+<style type="text/css">
+td.test1 {padding: 0.5cm 15cm}
+table {background-color: FFCCCC}
+background-position: 60% 100%
+body { height: 60% 100%}
+background-repeat:
+no-repeat;
+background-attachment:
+fixed
+
+</style>
+<body background="curcubeu.jpg">
+<table border=0.1">
+<tr>
+<td class="test1">
+<h1>GRADINITA PARADISUL COPIILOR </h1>
+</td>
+</tr>
+</table>
+<body background=url"(https://img.fruugo.com/product/4/06/207777064_max.jpg)">
+<h1> buna</h1>
+</html>

@@ -1,0 +1,41 @@
+<html>
+
+<head>
+<style type="text/css">
+td.test1 {padding: 1.0cm 15cm}
+table {border-color: CC0033}
+table {background-color: CC0033}
+h1 {font-style: bold}
+h1 {color: 9900CC}
+body {background-color: FFFF99}
+
+p {font-size:x-large}
+p {color: 000033}
+</style>
+</head>
+<body>
+<table border="4">
+<tr>
+<td class="test1">
+<h1>GRADINITA PARADISUL COPIILOR </h1>
+</td>
+</tr>
+</table>
+<h2 align= center>CE OFERIM?</h2>
+<p> Gradinita noastra primeste copii de la 2 ani si jumatate.
+<br>
+-o suprafata desfasurata de 1030,90 metri 
+patrati;                          
+-sali de grupa mari si luminoase;                                  
+-cadre didactice calificate;
+-asistenta medicala; 
+-activitati instructiv-educative deosebite; 
+-activitati extracurriculare diversificate; 
+-activitati optionale (Limba Emgleza, Bunele
+ maniere, Atelierul de pictura); 
+-dragoste si daruire pentru toti copiii. </p>
+
+
+</body>
+</html>
+

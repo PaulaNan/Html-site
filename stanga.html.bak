@@ -1,0 +1,28 @@
+
+<html>
+<head</head>
+<body>
+<br>
+
+<script type="text/javascript">
+var d = new Date()
+var time = d.getHours()
+if (time<10){document.write("<b>Good morning</b>")}
+else if (time>10 && time<16){document.write("<b>Good day</b>")}
+else{document.write("<b>Good evening!</b>")}
+</script>
+<br>
+<br>
+<a href="poveste.html" target="main">Poveste</a><br> 
+<a href="mozaic.html" target="main"> Mozaic</a><br> 
+<a href="cv.html" target="main"> CV</a><br>
+<a href="style1.html" target="main"> Style1</a><br>
+<a href="style2.html" target="main"> Style2</a><br>
+<a href="harta.html" target="main"> Harta</a><br>
+<a href="galerie.html" target="main"> Galerie foto</a><br>
+<a href="contact.html" target="main"> Contact</a><br>
+<frame src="dreapta.html" name="main">
+<a href="java.html" target="main"> Pagina realizata cu JS</a><br>
+<a href="java2.html" target="main"> Pagina 2 cu JS</a><br>
+</body>
+</html>

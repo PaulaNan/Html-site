@@ -1,0 +1,8 @@
+<html>
+<head>
+</head>
+<frameset cols="10%,*">
+<frame src="stanga.html" name="left">
+<frame src="dreapta.html" name="main">
+</frameset> 
+</html> 

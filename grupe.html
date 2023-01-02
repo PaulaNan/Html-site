@@ -1,0 +1,78 @@
+<html xmlns:t ="urn:schemas-microsoft-com:time">
+<head>
+<style>
+.time 
+{
+behavior: url(#default#time2);}
+.text 
+{
+font-family: "Times New Roman", Times, serif;
+font-size: 14px;
+color: #003366;} 
+.tabel {
+font-family: "Times New Roman", Times, serif;
+font-size: 14px;
+font-weight: bold;
+border: double #000000;
+}
+.style1 {color: #FFFFFF}
+</style>
+<?import namespace="t" implementation="#default#time2">
+<title>XHTML+TIME</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<SCRIPT>
+function modifica()
+{ 
+if(!secv.currTimeState.isActive)
+{ secv.beginElement() }
+if(Math.round(cronom.value)!=Math.round(secv.currTimeState.segmentTime))
+{ secv.seekSegmentTime(cronom.value) }
+}
+</SCRIPT>
+<body>
+<h1 align="center" class="text">Grupele gradinitei noastre</h1>
+<div align="center">
+<table width="500" border="1" align="center" class="tabel">
+<tr bordercolor="#000000" bgcolor="#003366" class="text">
+<th width="239" scope="col"><span class="style1">Numele Grupei</span></th>
+<th width="239" scope="col"><span class="style1">Imagine</span></th>
+</tr>
+<tr bordercolor="#000000">
+<th>Grupa Florilor</th>
+<th> 
+<img class= "time" src="flori.JPG" id="p1" width="119" height="120">
+<t:transitionfilter targetelement="p1" type="ellipseWipe" begin="0" dur="4" repeatCount="1">
+</th>
+</tr>
+<tr bordercolor="#000000">
+<th>Grupa Fluturasilor</th>
+<th><img class= "time" src="fluture.JPG" id="p2" width="119" height="119">
+<t:transitionfilter targetelement="p2" type="barWipe" begin="5" dur="4" repeatCount="1">
+</th>
+</tr>
+<tr bordercolor="#000000">
+<th>Grupa Stelutelor</th>
+<th><img class= "time" src="stelute.JPG" id="p2" width="119" height="119">
+<t:transitionfilter targetelement="p2" type="barWipe" begin="5" dur="4" repeatCount="1">
+</th>
+</tr>
+<tr bordercolor="#000000">
+<th>Grupa Buburuzelor</th>
+<th><img class= "time" src="buburuza.JPG" id="p3" width="117" height="110"></th>
+<t:transitionfilter targetelement="p3" type="barnDoorWipe" begin="10" dur="4" repeatCount="1">
+</tr>
+<tr bordercolor="#000000">
+<th>Grupa Albinutelor</th>
+<th><img class= "time" src="albinuta.JPG" id="p4" width="110" height="110"></td>
+<t:transitionfilter targetelement="p4" type="irisWipe" begin="15" dur="4" repeatCount="1">
+</tr>
+<tr bordercolor="#000000">
+<th>Grupa Ciupercutelor</th>
+<th><img class= "time" src="ciupercute.JPG" id="p5" width="110" height="110"></td>
+<t:transitionfilter targetelement="p5" type="clockWipe" begin="20" dur="4" repeatCount="1">
+</tr>
+</table>
+</div>
+</body>
+</html>
